@@ -172,7 +172,7 @@ HAVING COUNT(*) > 1;
 
 ### 3. CTAS (Create Table As Select)
 
-- **Task 6: Use CTAS to generate new tables based on query results - each book and total book_issued_count.**
+**Task 6: Use CTAS to generate new tables based on query results - each book and total book_issued_count.**
 
 ```sql
 CREATE TABLE book_issed_count AS  
@@ -241,7 +241,7 @@ WHERE rs.return_id IS NULL;
 
 ## Advanced SQL Operations
 
-**-- Task 13: Write a query to identify members who have overdue books (assume a 30-day return period). Display the member's id, member's name, book title, issue date, and days overdue.**  
+**Task 13: Write a query to identify members who have overdue books (assume a 30-day return period). Display the member's id, member's name, book title, issue date, and days overdue.**  
 
 ```sql
 SELECT m.member_id, m.member_name, iss.issued_book_name, iss.issued_date, rs.return_date - iss.issued_date AS "days_overdues"
