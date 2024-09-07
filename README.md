@@ -186,7 +186,7 @@ CREATE TABLE book_issed_count AS
 
 ### 4. Data Analysis & Findings
 
-**Task 7. Retrieve All Books 'Classic' Specific Category.**:
+**Task 7. Retrieve All Books Form 'Classic' Category.**
 
 ```sql
 SELECT *
