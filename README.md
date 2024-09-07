@@ -329,7 +329,7 @@ GROUP BY 1, 2;
 SELECT * FROM branch_reports;
 ```
 
-**-- Task 16: Create a query that generates a performance report for each branch, showing the number of books issued, the number of books returned, and the total revenue generated from book rentals.**  
+**Task 16: Create a query that generates a performance report for each branch, showing the number of books issued, the number of books returned, and the total revenue generated from book rentals.**  
 
 ```sql
 
@@ -354,7 +354,7 @@ FROM branch_report;
 ```
 
 
-**-- Task 16: Create a new table active_members containing members who have issued at least one book in the last 2 months.** 
+**Task 17: Create a new table active_members containing members who have issued at least one book in the last 2 months.** 
 
 ```sql
 CREATE TABLE active_members
@@ -370,7 +370,7 @@ AS
 ```
 
 
-**Task 17: Write a 'stored procedure' that updates the status of a book in the library based on its issuance. The procedure should function as follows: 
+**Task 18: Write a 'stored procedure' that updates the status of a book in the library based on its issuance. The procedure should function as follows: 
 -- The stored procedure should take the book_id as an input parameter. 
 -- The procedure should first check if the book is available (status = 'yes'). 
 -- If the book is available, it should be issued, and the status in the books table should be updated to 'no'. 
